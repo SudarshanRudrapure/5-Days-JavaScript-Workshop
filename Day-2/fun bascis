@@ -1,29 +1,29 @@
-A function is a reusable block of code that performs a task.
+//A function is a reusable block of code that performs a task.
 
-👉 Instead of writing same code again & again → use function.
+//Instead of writing same code again & again → use function.
 
-example:
+//example:
 function greet() {
     console.log("Hello Sudarshan");
 }
 greet(); // calling function
 
-output:
+//output:
 //Hello Sudarshan
 
 
-////////////////////////////////
 function greet(name) {
     console.log("Hello " + name);
 }
 greet("Sudarshan");
 greet("Ravi");
 
-output:
-Hello Sudarshan
-Hello Ravi
+//output:
+//Hello Sudarshan
+//Hello Ravi
 
-/////////////////
+
+
 function add(a, b) {
     return a + b;        //Return = send result back
 } 
@@ -31,5 +31,5 @@ function add(a, b) {
 let result = add(5, 3);
 console.log(result);
 
-output: 
-    8
+//output: 
+//   8
