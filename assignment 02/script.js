@@ -6,4 +6,4 @@ let time=2;
 document.writeln("principalamount: "+principalamount+"<br>");
 document.writeln("interest: "+interest+"<br>");
 document.writeln("time: "+time+"<br>");
-let result=(principalamount * interest * time);
+let result=(principalamount * interest * time)/100;
