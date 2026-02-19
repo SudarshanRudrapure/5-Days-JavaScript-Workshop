@@ -41,8 +41,8 @@ async function run() {
   let result = await waitTwoSeconds();
   console.log(result);
 }
-
 run();
+
 👉 Flow:
 run() starts
 await pauses
